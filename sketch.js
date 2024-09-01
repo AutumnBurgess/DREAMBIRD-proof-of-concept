@@ -1,8 +1,8 @@
 // import { TimeNow, MessageEvent } from "@rnbo/js";
 const SPEED = 0.25;
 const SIZE = 30;
-let x = 10;
-let y = 10;
+let x = 175;
+let y = 250;
 
 let buttons = [];
 let displays = [];
@@ -11,7 +11,7 @@ let device;
 
 async function setup() {
   await loadRNBO();
-  createCanvas(800, 800);
+  createCanvas(400, 700);
   noStroke();
   buttons.push(new Button(150, 100, 80, 80, 5000, "start"))
   // buttons.push(new Button(200, 100, 80, 80, 30))

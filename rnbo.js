@@ -1,5 +1,5 @@
 async function loadRNBO() {
-    const patchExportURL = "export/patch_ports.json";
+    const patchExportURL = "export/poly.json";
 
     // Create AudioContext
     const WAContext = window.AudioContext || window.webkitAudioContext;
