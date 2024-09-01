@@ -1,7 +1,7 @@
 async function setup() {
     const patchInput = document.getElementById("patch-text");
     const patchName = patchInput.value;
-    const patchExportURL = `export/${patchName}.json`;
+    const patchExportURL = `../export/${patchName}.json`;
     document.getElementById("patch-select").remove();
     document.getElementById("rnbo-root").hidden = "";
     console.log("hi");
